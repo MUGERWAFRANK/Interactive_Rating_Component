@@ -43,13 +43,13 @@ body {
 .container > * {
   margin: auto;
 }
-/* Rating card styles */
+
 .rating-card {
   background: var(--dark-blue);
   padding: 3rem;
   border-radius: 1.5rem;
 }
-/* Star icon styles */
+
 .icon-start {
   width: 4rem;
   height: 4rem;
@@ -59,13 +59,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* Title styles within the rating card */
+
 .rating-card .title {
   color: var(--white);
   font-size: 2.5rem;
   margin: 17px 0 8px;
 }
- /* Button styles */
+
 button {
   -webkit-user-select: none;
   user-select: none;
@@ -73,7 +73,7 @@ button {
   border: none;
   cursor: pointer;
 }
-/* Vote button styles */
+
 .vote-btn {
   display: inline-block;
   width: 4.5rem;
@@ -87,17 +87,17 @@ button {
   font-weight: bold;
   transition: 200ms ease-out;
 }
-/* Hover styles for vote button */
+
 .vote-btn:hover {
   background: var(--orange);
   color: var(--white);
 }
-/* Active (selected) state styles for vote button */
+
 .vote-btn.active {
   background: var(--medium-grey);
   color: #fff;
 }
- /* Styles for the list of rating buttons */
+
 .rating-list {
   display: flex;
   align-items: center;
@@ -105,7 +105,7 @@ button {
   gap: 1rem;
   margin-top: 2.3rem;
 }
- /* Submit button styles */
+
 .submit-btn {
   display: block;
   width: 100%;
@@ -120,16 +120,16 @@ button {
   margin-top: 3rem;
   transition: 200ms ease-out;
 }
- /* Hover styles for submit button */
+
 .submit-btn:hover {
   background: #fff;
   color: var(--orange);
 }
- /* Active state styles for submit button */
+
 .submit-btn:active {
   transform: scale(0.97);
 }
-/* Feedback card styles */
+
 .feedback-card {
   background: var(--dark-blue);
   padding: 4rem 3.5rem 5rem;
@@ -143,13 +143,13 @@ button {
   animation: fadeIn 500ms ease forwards;
   animation-delay: 100ms;
 }
-/* Styles for images within the feedback card */
+
 .feedback-card img {
   display: block;
   width: 100%;
   max-width: 18rem;
 }
- /* Styles for the badge displaying selected rating */
+
 .feedback-card .badge-vote {
   color: hsl(25, 97%, 60%);
   background: hsl(216, 12%, 22%);
@@ -159,17 +159,17 @@ button {
   line-height: 1;
   margin: 4rem 0 3rem;
 }
- /* Title styles within the feedback card */
+
 .feedback-card .title {
   color: #fff;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
-/* Styles for hiding elements */
+
 .hidden {
   display: none;
 }
- /* Keyframes for fadeIn animation */
+
 @keyframes fadeIn {
   0% {
     transform: scale(0);
@@ -181,7 +181,7 @@ button {
     opacity: 1;
   }
 }
-/* Media query styles for screens with max-width of 375px */
+
 @media screen and (max-width: 375px) {
   .rating-card {
     padding: 3rem 2rem;

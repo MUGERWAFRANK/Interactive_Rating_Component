@@ -1,0 +1,100 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --orange: hsl(25, 97%, 53%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  /* Body styles */
+}
+
+.container {
+  /* Container styles */
+}
+
+.rating-card {
+  /* Rating card styles */
+}
+
+.icon-start {
+  /* Star icon styles */
+}
+
+.rating-card .title {
+  /* Title styles within the rating card */
+}
+
+button {
+  /* Button styles */
+}
+
+.vote-btn {
+  /* Vote button styles */
+}
+
+.vote-btn:hover {
+  /* Hover styles for vote button */
+}
+
+.vote-btn.active {
+  /* Active (selected) state styles for vote button */
+}
+
+.rating-list {
+  /* Styles for the list of rating buttons */
+}
+
+.submit-btn {
+  /* Submit button styles */
+}
+
+.submit-btn:hover {
+  /* Hover styles for submit button */
+}
+
+.submit-btn:active {
+  /* Active state styles for submit button */
+}
+
+.feedback-card {
+  /* Feedback card styles */
+}
+
+.feedback-card img {
+  /* Styles for images within the feedback card */
+}
+
+.feedback-card .badge-vote {
+  /* Styles for the badge displaying selected rating */
+}
+
+.feedback-card .title {
+  /* Title styles within the feedback card */
+}
+
+.hidden {
+  /* Styles for hiding elements */
+}
+
+@keyframes fadeIn {
+  /* Keyframes for fadeIn animation */
+}
+
+@media screen and (max-width: 375px) {
+  /* Media query styles for screens with max-width of 375px */
+}

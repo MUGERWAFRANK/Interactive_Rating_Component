@@ -149,7 +149,7 @@ button {
   width: 100%;
   max-width: 18rem;
 }
- /* Styles for the badge displaying selected rating */
+
 .feedback-card .badge-vote {
   color: hsl(25, 97%, 60%);
   background: hsl(216, 12%, 22%);
@@ -159,17 +159,17 @@ button {
   line-height: 1;
   margin: 4rem 0 3rem;
 }
- /* Title styles within the feedback card */
+
 .feedback-card .title {
   color: #fff;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
-/* Styles for hiding elements */
+
 .hidden {
   display: none;
 }
- /* Keyframes for fadeIn animation */
+
 @keyframes fadeIn {
   0% {
     transform: scale(0);
@@ -181,7 +181,7 @@ button {
     opacity: 1;
   }
 }
-/* Media query styles for screens with max-width of 375px */
+
 @media screen and (max-width: 375px) {
   .rating-card {
     padding: 3rem 2rem;

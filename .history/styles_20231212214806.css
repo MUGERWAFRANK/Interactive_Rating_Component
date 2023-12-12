@@ -181,7 +181,7 @@ button {
     opacity: 1;
   }
 }
-/* Media query styles for screens with max-width of 375px */
+
 @media screen and (max-width: 375px) {
   .rating-card {
     padding: 3rem 2rem;
